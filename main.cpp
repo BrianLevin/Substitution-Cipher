@@ -38,7 +38,11 @@ string decrypted_message {}; // string variable to hold decrypted values
 
     for (char c: encrypted_message) { // finding decrypted messages and moving backwards towards crypted
 size_tposition = key.find(c);
+if(position!= string:npos)
 
+    } else{
+
+      decrypted_message += c; // display charatcer as is
     }
 
  cout << endl;
