@@ -14,7 +14,15 @@ int main() {
     cout << "Enter your secret message : ";
     getline(cin, secret_message); // getline= more then one word method
 
-    string encrypted_message {};
+
+    string encrypted_message {}; // holds the encrypted message
+
+    cout << "\nEncrypting message..." << endl;
+
+    for (char c: secret message){
+
+        
+    }
 
 
 return 0;
