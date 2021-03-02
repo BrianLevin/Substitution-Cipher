@@ -21,7 +21,7 @@ int main() {
 
     for (char c: secret message){
       size_t position = alphabet.find(c); // unsigned integer position which will find the position of the character
- if(position != string:npos) { // if string position is != no position, sucess
+ if(position != string::npos) { // if string position is != no position, sucess
 char new_char { key.at(position)}; // find new charatcer key at new position
 encrypted_message += new_char; // add new charatcer to the encrypted message
     } else{ // doesnt find position, add character as is
@@ -38,7 +38,9 @@ string decrypted_message {}; // string variable to hold decrypted values
 
     for (char c: encrypted_message) { // finding decrypted messages and moving backwards towards crypted
 size_tposition = key.find(c);
-if(position!= string:npos)
+if(position!= string::npos)
+char new_char  { (alphabet.at(position)) };
+decrypted_message += c; // add new charatcer to decrypted message
 
     } else{
 
