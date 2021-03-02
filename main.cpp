@@ -36,6 +36,11 @@ encrypted_message += new_char; // add new charatcer to the encrypted message
 string decrypted_message {}; // string variable to hold decrypted values
     cout << "\nDecrypting message..." << endl;
 
+    for (char c: encrypted_message) { // finding decrypted messages and moving backwards towards crypted
+size_tposition = key.find(c);
+
+    }
+
  cout << endl;
 return 0;
 
