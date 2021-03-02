@@ -29,10 +29,14 @@ encrypted_message += new_char; // add new charatcer to the encrypted message
 
 
     }
+    }
 
-    cout << "\nEncrypted message " << encrypted_message << endl;
+    cout << "\nEncrypted message " << encrypted_message << endl; // display encrypted message
 
+string decrypted_message {}; // string variable to hold decrypted values
+    cout << "\nDecrypting message..." << endl;
 
+ cout << endl;
 return 0;
 
 }
