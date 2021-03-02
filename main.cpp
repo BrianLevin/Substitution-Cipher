@@ -47,6 +47,7 @@ decrypted_message += c; // add new charatcer to decrypted message
       decrypted_message += c; // display charatcer as is
     }
 
+    cout << "\nDecrypted message: " << decrypted_message << endl;
  cout << endl;
 return 0;
 
