@@ -20,9 +20,15 @@ int main() {
     cout << "\nEncrypting message..." << endl;
 
     for (char c: secret message){
-      size_t position = alphabet.find(c);
+      size_t position = alphabet.find(c); // unsigned integer position which will find the position of the character
+ if(position != string:npos) { // if string position is != no position, sucess
 
+ 
         
+    } else{ // doesnt find position, add character as is
+ encrypted_message += c;
+
+
     }
 
 
