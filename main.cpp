@@ -20,6 +20,7 @@ int main() {
     cout << "\nEncrypting message..." << endl;
 
     for (char c: secret message){
+      size_t position = alphabet.find(c);
 
         
     }
