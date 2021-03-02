@@ -22,9 +22,8 @@ int main() {
     for (char c: secret message){
       size_t position = alphabet.find(c); // unsigned integer position which will find the position of the character
  if(position != string:npos) { // if string position is != no position, sucess
-
- 
-        
+char new_char { key.at(position)};
+encrypted_message += new_char;
     } else{ // doesnt find position, add character as is
  encrypted_message += c;
 
